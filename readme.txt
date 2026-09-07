@@ -13,15 +13,24 @@ See a yearly breakdown of Charitable donations by state / county / province for 
 
 == Description ==
 
-Sales by State Report for Charitable adds a report showing donations grouped by state, county or province, for a chosen year and a chosen set of donation statuses.
+Sales by State Report for Charitable adds a report showing donations grouped by state, county, or province, for a chosen year and a chosen set of donation statuses.
 
 It appears under **Charitable → Donations by State**.
 
-It answers the question territory planning actually asks: how much did each state donate in a given year, counting only the donations that matter.
+Use it when you need to know how much each state donated in a given year, counting only the donation statuses that matter for territory planning.
 
-This plugin is a Charitable extension. It requires [Charitable](https://wordpress.org/plugins/charitable/) to be installed and active.
+This plugin is a Charitable extension. It requires [Charitable](https://wordpress.org/plugins/charitable/) to be installed and active. There are no settings screens to configure. After you activate the plugin, open the report and choose a country, year, and donation statuses.
 
 Documentation: [salesbystate.com](https://salesbystate.com/)
+
+= How to use =
+
+1. Install and activate Charitable, then install and activate this plugin.
+2. Go to **Charitable → Donations by State**.
+3. Choose a **country**, a **year**, and the **donation statuses** that should count.
+4. The table lists donations for every state in that country.
+
+If the site already has donations, the plugin copies them into its report table in the background. A progress bar appears until that finishes. You can leave the page; the copy continues on its own.
 
 = What the report shows =
 
